@@ -177,29 +177,5 @@ function Main() {
 export default Main;
                 
             
-            
-            //     {/* <button className="myButton" onClick={()=>{nextPage("Chapter2")}} >
-            //         <h3>Chapter 2</h3>
-            //     </button>
-            //         <br/>
-                    
-            //     <button className="myButton" onClick={()=>{nextPage("Chapter3")}} >
-            //         <h3>Chapter 3</h3>
-            //     </button>
-            //         <br/>
-                    
-            //     <button className="myButton" onClick={()=>{nextPage("Chapter4")}} >
-            //         <h3>Chapter 4</h3>
-            //     </button>
-            //         <br/>
-                    
-            //     <button className="myButton" onClick={()=>{nextPage("Chapter5")}} >
-            //         <h3>Chapter 5</h3>
-            //     </button>
-            //         <br/>
-                    
-            //     <button className="myButton" onClick={()=>{nextPage("Chapter6")}} >
-            //         <h3>Chapter 6</h3>
-            //     </button>
-            //  */}
+           
  
