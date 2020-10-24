@@ -1,11 +1,11 @@
 import React from "react";
 import Main from "./views/Main";
-import Number1 from "./views/Number1";
-import Number2 from "./views/Number2";
-import Number3 from "./views/Number3";
-import Number4 from "./views/Number4";
-import Number5 from "./views/Number5";
-import Number6 from "./views/Number6";
+import Chapter1 from "./views/Chapter1";
+import Chapter2 from "./views/Chapter2";
+import Chapter3 from "./views/Chapter3";
+import Chapter4 from "./views/Chapter4";
+import Chapter5 from "./views/Chapter5";
+import Chapter6 from "./views/Chapter6";
 
 const routes = [{
         path: "/",
@@ -16,28 +16,28 @@ const routes = [{
         element: < Main / > ,
     },
     {
-        path: "Number1",
-        element: < Number1 / > ,
+        path: "Chapter1",
+        element: < Chapter1 / > ,
     },
     {
-        path: "Number2",
-        element: < Number2 / > ,
+        path: "Chapter2",
+        element: < Chapter2 / > ,
     },
     {
-        path: "Number3",
-        element: < Number3 / > ,
+        path: "Chapter3",
+        element: < Chapter3 / > ,
     },
     {
-        path: "Number4",
-        element: < Number4 / > ,
+        path: "Chapter4",
+        element: < Chapter4 / > ,
     },
     {
-        path: "Number5",
-        element: < Number5 / > ,
+        path: "Chapter5",
+        element: < Chapter5 / > ,
     },
     {
-        path: "Number6",
-        element: < Number6 / > ,
+        path: "Chapter6",
+        element: < Chapter6 / > ,
     },
 ];
 

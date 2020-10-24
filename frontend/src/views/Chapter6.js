@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Number1() {
+export default function Chapter6() {
     return (
         <h1>Hello World!</h1>
     )
