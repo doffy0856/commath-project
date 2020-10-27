@@ -1,44 +1,46 @@
 import React from "react";
-import Main from "./views/Main";
-import Chapter1 from "./views/Chapter1";
-import Chapter2 from "./views/Chapter2";
-import Chapter3 from "./views/Chapter3";
-import Chapter4 from "./views/Chapter4";
-import Chapter5 from "./views/Chapter5";
-import Chapter6 from "./views/Chapter6";
+// import { Navigate } from 'react-router-dom';
+import Main from "./views/main";
+import B2s from "./views/b2s";
+import Elimination from "./views/elimination";
+import Interpolation from "./views/interpolation";
+import Differentiation from "./views/differentiation";
+import Integration from "./views/integration";
+import RootFinding from "./views/root-finding";
 
-const routes = [{
-        path: "/",
-        element: < Main / > ,
-    },
-    {
-        path: "/commath-project",
-        element: < Main / > ,
-    },
-    {
-        path: "Chapter1",
-        element: < Chapter1 / > ,
-    },
-    {
-        path: "Chapter2",
-        element: < Chapter2 / > ,
-    },
-    {
-        path: "Chapter3",
-        element: < Chapter3 / > ,
-    },
-    {
-        path: "Chapter4",
-        element: < Chapter4 / > ,
-    },
-    {
-        path: "Chapter5",
-        element: < Chapter5 / > ,
-    },
-    {
-        path: "Chapter6",
-        element: < Chapter6 / > ,
-    },
+const routes = [
+  {
+    path: "/",
+    element: <Main />,
+  },
+  {
+    path: "commath-project",
+    element: <Main />,
+  },
+  {
+    path: "b2s",
+    element: <B2s />,
+  },
+  {
+    path: "elimination",
+    element: <Elimination />,
+  },
+  {
+    path: "interpolation",
+    element: <Interpolation />,
+  },
+  {
+    path: "differentiation",
+    element: <Differentiation />,
+  },
+  {
+    path: "integration",
+    element: <Integration />,
+  },
+  {
+    path: "root-finding",
+    element: <RootFinding />,
+  },
 ];
 
 export default routes;
